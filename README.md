@@ -67,3 +67,71 @@ class scanner {
 }
 
 ```
+
+## Conditionals
+### if-else statement
+
+```java
+import java.util.*;
+
+class Conditionals {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        int age = sc.nextInt();
+
+        if (age >= 18) {
+            System.out.println("You are eligible to vote.");
+        } else {
+            System.out.println("You are not eligible to vote.");
+            
+        }
+
+        if (age % 2 == 0) {
+            System.out.println("You age is even.");
+        } else {
+            System.out.println("You age is odd.");
+        }
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a == b) {
+            System.out.println("Both numbers are equal.");
+        } else if (a > b) {
+            System.out.println("First number is greater.");
+        } else {
+            System.out.println("Second number is greater.");
+            
+        }
+    }
+}
+
+```
+
+### Switch Statement
+```java
+import java.util.*;
+
+public class Switch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int button = sc.nextInt();
+
+        // with switch statement
+        switch (button) {
+            case 1 : System.out.println("You pressed 1.");
+                break;
+            case 2 : System.out.println("You pressed 2.");
+                break;
+            case 3 : System.out.println("You pressed 3.");
+                break;
+            case 4 : System.out.println("You pressed 4.");
+                break;
+            default : System.out.println("Invalid button.");
+        }
+    }
+}
+
+```
