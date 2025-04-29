@@ -1,35 +1,3 @@
-# Java
-
-## syntax
-
-```java
-class FirstClass {
-    public static void main(String args[]) {
-        System.out.println("Hellow World");
-    }
-}
-```
-
-## output statement
-```java
-System.out.println("Hello, World!");
-System.out.print("Hello, World!");
-```
-
-### se *println* for other code goes in next line but if we only use *print* then all codes output are in same line
-
-## Data Types:
-### Java is a typed language
-1. Primitive Datatype
-2. Non-primitive Datatype
-
-| **Data Type**         | **Description**                                                                 |
-|------------------------|---------------------------------------------------------------------------------|
-| **Primitive Datatype** | **Non-primitive Datatype** |
-| `bite`, `short`, `char`, `double`, `long`, `int`, `float`, `boolean` | `String`, `Array`, `Class`, `Object`, `Interface` |
-
-## Take any input form system
-```java
 import java.util.*;
 
 class scanner {
@@ -65,5 +33,3 @@ class scanner {
         // sc.next(); // reads the next token
     }
 }
-
-```
