@@ -135,3 +135,69 @@ public class Switch {
 }
 
 ```
+
+## Loops
+### For Loop
+```java
+for(initialisation; condition; updation) {
+    // do something
+}
+```
+- Example:
+```java
+public class ForLoop {
+    public static void main(String[] args) {
+        for (int counter = 0; counter < 100; counter ++) {
+            System.out.println("hello World " + counter);
+        }
+    }
+}
+```
+
+### While Loop
+condition is true or false no matter atleast one time code runs
+```java
+while(condition) {
+    // do something
+}
+```
+- Example:
+```java
+public class WhileLoop {
+    public static void main(String[] args) {
+        int i = 0;
+        while (i<10) {
+            System.out.println(i);
+            // i++;
+            i = i + 1;
+        }
+    }
+}
+```
+
+### Do-While Loop
+```java
+do{
+    // do something
+} while(condition)
+```
+- Example:
+```java
+public class DoWhileLoop {
+    public static void main(String[] args) {
+        int i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i<11);
+
+        // condition is true or false no matter atleast one time code runs
+        int j = 10;
+        do {
+            System.out.println("Debojyoti");
+            j++;
+        } while (j>15);
+    }
+}
+
+```
