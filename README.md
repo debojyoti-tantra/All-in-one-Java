@@ -201,3 +201,23 @@ public class DoWhileLoop {
 }
 
 ```
+
+## Functions
+### Structure:
+```java
+returnType functionName(type arg1, type arg2) {
+    // oprations
+}
+```
+### returnType can be `int`, `srring`, `array` or `void`.....
+### `void` is a special return type it's means function returns nothing.-
+
+### Example:
+```
+### `public` & `Static` both are keywords
+```java
+class FirstClass {
+    public static void main(String args[]) {
+        System.out.println("Hellow World");
+    }
+}
