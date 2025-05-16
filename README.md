@@ -223,3 +223,6 @@ class FirstClass {
 ```
 ### Function vs Methods:
 if we call a function by class object then this function is called method.
+
+## Time Complexity and Space Complexity:
+Relationship between Input size and Running Time (Operation).
