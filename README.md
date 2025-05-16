@@ -213,7 +213,6 @@ returnType functionName(type arg1, type arg2) {
 ### `void` is a special return type it's means function returns nothing.-
 
 ### Example:
-```
 ### `public` & `Static` both are keywords
 ```java
 class FirstClass {
