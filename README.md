@@ -221,3 +221,6 @@ class FirstClass {
         System.out.println("Hellow World");
     }
 }
+```
+### Function vs Methods:
+if we call a function by class object then this function is called method.
