@@ -226,3 +226,8 @@ if we call a function by class object then this function is called method.
 
 ## Time Complexity and Space Complexity:
 Relationship between Input size and Running Time (Operation).
+
+## Arrays:
+```java
+type[] arrayName = new type[size];
+```
